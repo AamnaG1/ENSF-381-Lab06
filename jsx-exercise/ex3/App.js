@@ -8,7 +8,7 @@ import EngineeringTopics from './EngineeringTopics';
 function App() {
   let currentYear = new Date();
   var isLoggedIn = true;
-  let l
+  
   return (
     <div> 
       <h1> ENSF-381: Full Stack Web Development </h1>
