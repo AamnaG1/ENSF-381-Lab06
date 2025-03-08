@@ -17,7 +17,8 @@ function App() {
       <p> {currentYear.getFullYear()} </p>
       {
         isLoggedIn == true ? <p> Welcome back! </p> : <p> Please Log in. </p>
-      }   
+      }  
+    </div>   
   );
 }
 
