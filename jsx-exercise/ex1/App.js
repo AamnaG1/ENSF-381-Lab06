@@ -16,7 +16,7 @@ function App() {
       <p> React Components.</p>
       <p> {currentYear.getFullYear()} </p>
       {
-        isLoggedIn == true ? <p> Welcome back! </p> : <p> Please Log in. </p>
+        isLoggedIn === true ? <p> Welcome back! </p> : <p> Please Log in. </p>
       }  
     </div>   
   );
